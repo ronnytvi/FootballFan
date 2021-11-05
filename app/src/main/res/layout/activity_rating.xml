@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectModeActivity">
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Глобальный рейтинг"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"/>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/str1"
+        android:layout_marginTop="80dp">
+
+        <Button
+            android:id="@+id/btnModeLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="20sp"
+            android:background="@drawable/button_orange"
+            android:drawableTop="@drawable/ic_football"
+            android:paddingTop="15dp"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="40dp"
+            android:text="Логотипы"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnModePlayer"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="20sp"
+            android:background="@drawable/button_yellow"
+            android:drawableTop="@drawable/ic_football_player"
+            android:paddingTop="15dp"
+            android:textAllCaps="false"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="40dp"
+            android:text="Игроки"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/str2"
+        android:layout_below="@id/str1">
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="20dp"
+            android:background="@drawable/button_red"
+            android:drawableTop="@drawable/ic_true"
+            android:paddingTop="15dp"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="40dp"
+            android:text="Правда | Ложь"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/button_blue"
+            android:drawableTop="@drawable/ic_team"
+            android:paddingTop="15dp"
+            android:text="Одноклубники"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tbYouRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Ваш рейтинг"
+        android:textSize="22dp"
+        android:layout_below="@id/str2"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/str3"
+        android:layout_below="@id/tbYouRating">
+
+        <Button
+            android:id="@+id/btnLogoRating"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/button_orange"
+            android:clickable="false"
+            android:drawableStart="@drawable/ic_football_small"
+            android:paddingStart="15dp"
+            android:text="0"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnPlayerRating"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/button_yellow"
+            android:clickable="false"
+            android:drawableStart="@drawable/ic_football_player_small"
+            android:paddingStart="15dp"
+            android:text="0"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/str4"
+        android:layout_below="@id/str3">
+
+        <Button
+            android:id="@+id/btnTrueFalseRating"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/button_red"
+            android:clickable="false"
+            android:drawableStart="@drawable/ic_true_small"
+            android:paddingStart="15dp"
+            android:text="0"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnTeammateRating"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/button_blue"
+            android:clickable="false"
+            android:drawableStart="@drawable/ic_team_small"
+            android:paddingStart="15dp"
+            android:text="0"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_green"
+        android:drawableStart="@drawable/ic_baseline_arrow_back_24"
+        android:paddingStart="15dp"
+        android:text="Назад"
+        android:layout_marginBottom="50dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</RelativeLayout>

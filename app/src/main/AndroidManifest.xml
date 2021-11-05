@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rannygaming.developers.footballfan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StoreActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ResultLogoModeActivity" />
+        <activity android:name=".ResultPlayerModeActivity" />
+        <activity android:name=".ResultTFModeActivity" />
+        <activity android:name=".ResultTeammatesModeActivity" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity android:name=".ModeTeammatesActivity" />
+        <activity android:name=".ModeTeammatesActivity2" />
+        <activity android:name=".ModeTeammatesActivity3" />
+        <activity android:name=".ModeTeammatesActivity4" />
+        <activity android:name=".ModeTeammatesActivity5" />
+        <activity android:name=".ModeTeammatesActivity6" />
+        <activity android:name=".ModeTeammatesActivity7" />
+        <activity android:name=".ModeTeammatesActivity8" />
+        <activity android:name=".ModeTeammatesActivity9" />
+        <activity android:name=".ModeTeammatesActivity10" />
+        <activity android:name=".ModeTeammatesActivity11" />
+        <activity android:name=".ModeTeammatesActivity12" />
+        <activity android:name=".ModeTeammatesActivity13" />
+        <activity android:name=".ModeTeammatesActivity14" />
+        <activity android:name=".ModeTeammatesActivity15" />
+        <activity android:name=".ModeTFActivity" />
+        <activity android:name=".ModeTFActivity2" />
+        <activity android:name=".ModeTFActivity3" />
+        <activity android:name=".ModeTFActivity4" />
+        <activity android:name=".ModeTFActivity5" />
+        <activity android:name=".ModeTFActivity6" />
+        <activity android:name=".ModeTFActivity7" />
+        <activity android:name=".ModeTFActivity8" />
+        <activity android:name=".ModeTFActivity9" />
+        <activity android:name=".ModeTFActivity10" />
+        <activity android:name=".ModeTFActivity11" />
+        <activity android:name=".ModeTFActivity12" />
+        <activity android:name=".ModeTFActivity13" />
+        <activity android:name=".ModeTFActivity14" />
+        <activity android:name=".ModeTFActivity15" />
+        <activity android:name=".ModePlayerActivity" />
+        <activity android:name=".ModePlayerActivity2" />
+        <activity android:name=".ModePlayerActivity3" />
+        <activity android:name=".ModePlayerActivity4" />
+        <activity android:name=".ModePlayerActivity5" />
+        <activity android:name=".ModePlayerActivity6" />
+        <activity android:name=".ModePlayerActivity7" />
+        <activity android:name=".ModePlayerActivity8" />
+        <activity android:name=".ModePlayerActivity9" />
+        <activity android:name=".ModePlayerActivity10" />
+        <activity android:name=".ModePlayerActivity11" />
+        <activity android:name=".ModePlayerActivity12" />
+        <activity android:name=".ModePlayerActivity13" />
+        <activity android:name=".ModePlayerActivity14" />
+        <activity android:name=".ModePlayerActivity15" />
+        <activity android:name=".ModeLogoActivity" />
+        <activity android:name=".ModeLogoActivity2" />
+        <activity android:name=".ModeLogoActivity3" />
+        <activity android:name=".ModeLogoActivity4" />
+        <activity android:name=".ModeLogoActivity5" />
+        <activity android:name=".ModeLogoActivity6" />
+        <activity android:name=".ModeLogoActivity7" />
+        <activity android:name=".ModeLogoActivity8" />
+        <activity android:name=".ModeLogoActivity9" />
+        <activity android:name=".ModeLogoActivity10" />
+        <activity android:name=".ModeLogoActivity11" />
+        <activity android:name=".ModeLogoActivity12" />
+        <activity android:name=".ModeLogoActivity13" />
+        <activity android:name=".ModeLogoActivity14" />
+        <activity android:name=".ModeLogoActivity15" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".RatingActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".SelectModeActivity" />
+        <activity android:name=".StartActivity" />
+        <activity android:name=".MainActivity"/>
+
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

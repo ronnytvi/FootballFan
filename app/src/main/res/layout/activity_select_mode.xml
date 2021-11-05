@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectModeActivity">
+
+    <RelativeLayout
+        android:id="@+id/upBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btvLevel"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:visibility="invisible"
+            android:background="@drawable/button_green"
+            android:textAllCaps="false"
+            android:textSize="14dp"
+            android:paddingEnd="10dp"
+            android:layout_alignParentStart="true"
+            android:clickable="false"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:drawableEnd="@drawable/ic_baseline_stars_24"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/btvMoney"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button_green"
+            android:textSize="22dp"
+            android:paddingEnd="10dp"
+            android:layout_alignParentEnd="true"
+            android:clickable="false"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:drawableEnd="@drawable/ic_baseline_monetization_on_24"
+            android:textColor="@color/colorWhite"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/str1">
+
+        <Button
+            android:id="@+id/btnModeLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/button_orange"
+            android:drawableTop="@drawable/ic_football"
+            android:paddingTop="15dp"
+            android:text="Логотипы"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnModePlayer"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="20sp"
+            android:background="@drawable/button_yellow"
+            android:drawableTop="@drawable/ic_football_player"
+            android:paddingTop="15dp"
+            android:textAllCaps="false"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="80dp"
+            android:text="Игроки"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/str2"
+        android:layout_below="@id/str1">
+
+        <Button
+            android:id="@+id/btnTrueFalseMode"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="20dp"
+            android:background="@drawable/button_red"
+            android:drawableTop="@drawable/ic_true"
+            android:paddingTop="15dp"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="40dp"
+            android:text="Правда | Ложь"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnTeammateMode"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="20dp"
+            android:background="@drawable/button_blue"
+            android:drawableTop="@drawable/ic_team"
+            android:paddingTop="15dp"
+            android:textAllCaps="false"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="40dp"
+            android:text="Одноклубники"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnRating"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_below="@id/str2"
+        android:background="@drawable/button_green"
+        android:layout_marginTop="50dp"
+        android:textAllCaps="false"
+        android:drawableStart="@drawable/ic_baseline_star_24"
+        android:paddingStart="15dp"
+        android:text="Рейтинг"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnShop"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_below="@id/btnRating"
+        android:background="@drawable/button_green"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:drawableStart="@drawable/ic_baseline_shopping_cart_24"
+        android:paddingStart="15dp"
+        android:text="Магазин"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_green"
+        android:drawableStart="@drawable/ic_baseline_arrow_back_24"
+        android:paddingStart="15dp"
+        android:text="Назад"
+        android:layout_marginBottom="50dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</RelativeLayout>

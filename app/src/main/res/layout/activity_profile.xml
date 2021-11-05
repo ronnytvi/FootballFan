@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:text="Login"/>
+
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/tvLogin"
+        android:visibility="invisible"
+        android:text="Password"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_below="@id/tvPassword"
+        android:background="@drawable/button_red"
+        android:textAllCaps="false"
+        android:drawableStart="@drawable/ic_baseline_exit_to_app_24"
+        android:paddingStart="15dp"
+        android:text="Выйти"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_green"
+        android:drawableStart="@drawable/ic_baseline_arrow_back_24"
+        android:paddingStart="15dp"
+        android:text="Назад"
+        android:layout_marginBottom="50dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</RelativeLayout>
